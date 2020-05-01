@@ -15,6 +15,7 @@ const initState = {
     channel2: [{ from: "user1", msg: "hello" }],
   },
 };
+
 const reducer = (state, action) => {
   console.log(action);
   switch (action.type) {
